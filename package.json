@@ -1,6 +1,6 @@
 {
   "private": true,
-  "homepage": "https://eggacheb.github.io/Miki-Captain/"
+  "homepage": "."
   "scripts": {
     "build": "vite build app",
     "dev": "vite app",
