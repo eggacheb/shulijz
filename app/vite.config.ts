@@ -18,11 +18,14 @@ const ruid = +(process.env.RUID ?? 3493277313534134);
 
 const roomid = +(process.env.ROOM_ID ?? 27578385);
 
+module.exports = {
+publicPath: '.",},
+
 export default defineConfig({
   define: {
     __GITHUB_REPOSITORY__: JSON.stringify(process.env.GITHUB_REPOSITORY),
     __BUILD_TIME__: `"${new Date().toISOString()}"`
-  },
+  
   plugins: [
     vue(),
     Icons(),
