@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "/shulijz/",
+    "baseUrl": "/shulijz",
     "esModuleInterop": true,
     "isolatedModules": true,
     "jsx": "preserve",
