@@ -1,6 +1,5 @@
 {
   "private": true,
-  "homepage": "."
   "scripts": {
     "build": "vite build app",
     "dev": "vite app",
