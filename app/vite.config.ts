@@ -34,10 +34,15 @@ export default defineConfig({
       data: path.join(__dirname, '../data'),
       roomid,
       ruid,
-      gift: { name: '毛线毛裤' }
+      gift: { name: '小饼干' }
     })
   ],
   build: {
     outDir: path.join(__dirname, '../dist')
   }
 });
+export default {
+  base: '/shulijz',
+  publicPath: '/shulijz/',
+  exportStatic: {},
+};
