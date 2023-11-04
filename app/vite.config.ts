@@ -41,8 +41,3 @@ export default defineConfig({
     outDir: path.join(__dirname, '../dist')
   }
 });
-export default {
-  base: '/shulijz',
-  publicPath: '/shulijz/',
-  exportStatic: {},
-};
