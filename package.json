@@ -1,5 +1,8 @@
 {
+  "name": "shulijz",
+  "version": "0.1.0",
   "private": true,
+  "homepage": "shulijz",
   "scripts": {
     "build": "vite build app",
     "dev": "vite app",
