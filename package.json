@@ -1,7 +1,5 @@
 {
-  "name": "shulijz",
   "private": true,
-  "homepage": "shulijz",
   "scripts": {
     "build": "vite build app",
     "dev": "vite app",
